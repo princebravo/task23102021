@@ -1,0 +1,549 @@
+.topbar{
+  background-color: #3b5998;
+}
+.wrapper {
+    width: 100% !important;
+  }
+  
+  .col-md-8.text-right {
+  margin-left: 30rem;
+  }
+  .navbgcolor{
+    background-color: #345294;
+    color: white;
+  }
+  .navbgcolor2{
+    background-color: #4b6399;
+    color: white;
+    
+  }
+  .btn-margin2{
+    margin-left: 40rem;
+  }
+  .btnstyle{
+    border-radius: 50%;
+    
+    
+  }
+  .svgtext{
+    color:#F1550C;
+  }
+  .textblue{
+    color: #4b6399;
+  }
+  .btn-margin{
+    margin-left:6rem !important;
+  }
+  button.btn.btn-warning.ml-5.btn-bg {
+    background-color: yellow;
+    border-color: yellow;
+   border-radius: 20px;
+}
+ .navitem{
+   font-weight: 700;
+ }
+  .fa-twitter:hover{
+    color: #00acee;
+  }
+  .fa-facebook:hover{
+  color: #3b5998;
+  }
+  .fa-linkedin:hover{
+  color: #0e76a8;
+  }
+  /********/
+  .banner_section {
+  width: 100%;
+  background-image: url(../images/bg.jpg); 
+  }
+  
+  .banner_content {
+   color: white;
+   text-align: center;
+   width: 100%;
+   padding: 203px 0 265px
+   
+  }
+  
+  .divmargin{
+    margin-left: 1rem;
+  }
+  .thintext{
+    font-size: 20px;
+    font-weight: 500;
+  }
+  .margin{
+    margin-left: 7rem;
+  }
+  * {box-sizing: border-box}
+  body {font-family: Verdana, sans-serif; margin:0}
+  .mySlides {display: none}
+  .img {vertical-align: middle;}
+  
+  /* Slideshow container */
+  .slideshow-container {
+    max-width: 1200px;
+    position: relative;
+    margin: auto;
+  }
+  .leftpadding{
+    margin-left: 5rem;
+  }
+ 
+  /* Next & previous buttons */
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+  }
+  
+  /* Caption text */
+  .text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  
+  /* The dots/bullets/indicators */
+  .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  .active, .dot:hover {
+    background-color: #717171;
+  }
+  
+  /* Fading animation */
+  .fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @-webkit-keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
+  
+  @keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
+  
+  @media only screen and (max-width: 300px) {
+    .prev, .next,.text {font-size: 11px}
+  }
+  
+  
+   input[type=text] {
+    padding: 10px;
+    
+    margin-top: 8px;
+    font-size: 17px;
+    color: black;
+    width: 300px;
+  height: 50px;
+    border: 1px solid white;
+    border-radius:2px;
+  }
+  input[type=text]::placeholder{
+    color: black;
+  }
+  
+  .search-container button {
+  color: white;
+    padding: 10px 10px;
+    margin-top: 8px;
+    
+    height: 50px;
+    width: 130px;
+    background-color: rgb(182,156,129);
+    font-size: 17px;
+    border: 1px solid rgb(182,156,129);
+    border-radius:2px;
+    cursor: pointer;
+  }
+   .search-container button:hover {
+    background: #ccc;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .search-container {
+      float: none;
+    }
+     input[type=text], .search-container button {
+      float: none;
+      display: block;
+      text-align: left;
+      width: 100%;
+      margin: 0;
+      padding: 14px;
+    }
+   input[type=text] {
+      border: 1px solid #ccc;  
+    }
+  }
+  .Lfont{
+    font-size: 16px;
+  }
+  .psize{
+    font-size: 12px;
+    font-weight: 600;
+  }
+  .datetext{
+    color: rgb(182,156,129);
+  }
+  .whitebg{
+    background-color: #ffffff !important;
+    margin-left: 5rem;
+    margin-top:-9rem;
+    height: 223px;
+    width: 268px;
+  }
+  .whitetext{
+    color: #f1f1f1;
+    font-weight: normal;
+  }
+  .Ltext{
+    font-weight:300;
+    font-size: 60px;
+    color: rgb(182,156,129);
+  }
+  .footer{
+    background-color: rgb(8, 8, 8);
+    height: 350px;
+    width: 1500px;
+  
+  }
+  .grid-container5 {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    
+    padding: 1px;
+  }
+  .grid-item5 {
+    margin-left: 5rem;
+    width: 80px;
+    height: 400px;
+    background-color: rgba(234,227,217);
+    border: 0px solid rgba(0, 0, 0, 0.8);
+  
+    /*font-size: 25px;
+    text-align: center;*/
+  }
+  .fa-align{
+    margin-right:34rem;
+  }
+ 
+  body{
+    font-family: 'Arial';
+    font-weight: lighter;
+  }
+  .heading{font-weight: 500;
+    font-size: 25px;
+  
+  }
+  .subhead{
+    color: rgba(216,206,197);
+    font-style: italic;
+  }
+  
+  }
+  .grid-container4 {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    
+    padding: 1px;
+  }
+  .grid-item4 {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 0px solid rgba(0, 0, 0, 0.8);
+    padding: 5px;
+    
+    /*font-size: 25px;
+    text-align: center;*/
+  }
+  .grid-container3 {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    
+  }
+  .white-text2{
+  color: white;
+  }
+  .grid-item.hand{
+    font-size: 20px;
+    text-align: left;
+    margin-left: -2rem;
+  }
+  .grid-item.topmargin {
+    margin-top: 5rem;
+  }
+  .grid-item3{
+  
+    border: 0px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+  }
+  .text-center{
+    margin-left: 40rem; 
+  }
+  .grid-container2 {
+    display: grid;
+    grid-template-columns: auto auto auto;
+  margin-left: 13rem;
+    padding: 20px;
+  }
+  .grid-item2 {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 0px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+  }
+  .sertext{
+    
+    color: rgb(232,164,161);
+    font-size: 20px;
+    margin-left: 1rem;
+  }
+  .justify-content-center{
+    align-items: center !important;
+    color: white;
+    margin-left: 25rem;
+  }
+  .h3{
+    margin-left:5rem;
+  }
+  .btn {
+    background-color: rgb(195,178,152);
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+  
+  .btn2{
+    
+      background-color: white;
+      border: none;
+      
+      padding: 15px 32px;
+      text-align: center;
+    
+      cursor: pointer;
+    
+  }
+  .grid-container {
+    margin-left: 10rem;
+  }
+  .grid-item {
+   
+    padding: 20px;
+    
+    text-align: center;
+  }
+  ul {
+    list-style-type: none;
+    
+    
+  }
+  .textcolor{
+    color: rgb(232,164,161);
+  }
+  .align-textright{
+    margin-left: 11.5rem;
+  }
+  .align-center{
+    text-align: center;
+  }
+  .align-left{
+    text-align: right;
+  }
+  .align-textleft{
+    margin-left:-8.5rem;
+  }
+  .align-text{
+  text-align: left;
+  }
+  .btn{
+    background-color:  rgb(195,178,152);
+  
+  }
+  .fa-user-circle{
+    color: #f1f1f1;
+    font-size: 100px;opacity: 0.7;
+  }
+  .fa-user-circle:hover{
+    opacity:1.2;
+  }
+  .text1{
+    margin-left: 3rem;
+  
+  }
+  .smalltext{
+    color: #111;
+    font-weight: 100;
+    font-size: 13px;
+    opacity: 0.5;
+    font-style: italic;
+  }
+  .text-center2{
+    text-align: center;
+  }
+  .h1-align-left{
+    margin-left: 8rem;
+  }
+  .white-text{
+    color: white;
+    
+    opacity: 0.7;
+  }
+  .font1{
+    font-size:23px;
+  
+  }
+  .white-text:hover{
+    opacity:2.0;
+  }
+  .bg-image{
+    background-image: url('https://www.teahub.io/photos/full/279-2796147_road-wallpaper-1080p.jpg');
+  }
+  .floatright{
+  margin-right:3rem;
+  }
+  .align-text-left{
+  text-align: center;
+  }
+  .bgcolor{
+    background-color: rgb(195,178,152);
+  }
+  .float-left{
+    margin-left:25rem;
+    margin-top:-16rem;
+  }
+  .float-r{
+    margin-top:-5rem;
+    margin-right: 30rem;
+  }
+  .float-right{
+  margin-right: 20rem;
+  margin-top:1.8rem;
+  }
+  
+  .fad{
+    color: white;
+    padding:20px;
+    padding-top: 1rem;
+    background-color:  rgb(195,178,152);
+    border-radius: 50%;
+    border: 1px solid  rgb(195,178,152);
+    
+  }
+  .pic1-text{
+margin:4rem;
+  }
+  .pic2-text{
+    margin-left: 2rem;
+  }
+  .colmargin{
+    margin-left: 1rem;
+  }
+  .textmargin{
+    margin-left: 20rem;
+  }
+  .bmask{
+    background-color:rgba(196, 196, 196, 0.527);
+    opacity: 0.1px;
+    width: 700px;
+    height: 500px;
+  }
+  .Dbtn{
+    margin-left:3rem;
+    
+  }
+  .btnmar{
+    margin-bottom: 10px;
+  }
+  .mask{
+    width: 1510px;
+    height: 540px;
+  }
+  .icon{
+    margin-bottom: -1rem;
+    margin-left: 70rem;
+   
+    padding:0px;
+  }
+  
+  
+  
+  .btn-margin3{
+margin-left: 40rem;
+  }
+  
+  .openbtn {
+    font-size: 20px;
+    cursor: pointer;
+  background-color: white!important;
+    color: rgb(195,176,153);
+    padding: 10px 5px;
+    margin-right: 5rem;
+    border: none;
+  }
+  .color{
+     color: rgb(195,176,153);
+  }
+  
+  
+  
+  .link{
+    margin-left:10rem;
+  }
